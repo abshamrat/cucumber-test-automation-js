@@ -49,7 +49,7 @@ exports.config = {
     reporterOptions: {
         htmlReporter: {
             jsonFolder: './tmp',
-            reportFolder: `./tmp/report`,
+            reportFolder: './tmp/report',
             pageTitle: "Test Reports",
             reportName: "Test Reports",
             pageFooter: "<div><p>Test Automation</p></div>"
