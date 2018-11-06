@@ -1,0 +1,47 @@
+{
+  "name": "cucumber-test-automation-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamrat17/cucumber-test-automation-js.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "test",
+    "selenium"
+  ],
+  "author": "Abu Bakar Siddique (Shamrat)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamrat17/cucumber-test-automation-js/issues"
+  },
+  "homepage": "https://github.com/shamrat17/cucumber-test-automation-js#readme",
+  "dependencies": {
+    "babel-preset-env": "~1.7.0",
+    "babel-register": "~6.26.0",
+    "chai": "~4.1.2",
+    "wdio-cucumber-framework": "~2.2.0",
+    "wdio-selenium-standalone-service": "~0.0.9",
+    "wdio-spec-reporter": "~0.1.2",
+    "webdriverio": "4.13.2"
+  },
+  "devDependencies": {
+    "babel-core": "~6.26.3",
+    "babel-jest": "~23.0.1",
+    "babel-polyfill": "~6.26.0",
+    "eslint": "~5.0.0",
+    "eslint-config-airbnb-base": "~13.0.0",
+    "eslint-plugin-import": "~2.13.0",
+    "forever": "~0.15.3",
+    "http-server": "~0.11.0",
+    "jest": "~23.0.0",
+    "wdio-cucumber-reporter": "0.0.2",
+    "wdio-multiple-cucumber-html-reporter": "^0.3.2"
+  }
+}
