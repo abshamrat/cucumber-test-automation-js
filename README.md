@@ -179,8 +179,7 @@ Scenario: check if username is present
 
 # List of predefined steps
 
-Check out all predefined snippets. You can see how they get used in [`sampleSnippets.feature`](https://github.com/webdriverio/cucumber-boilerplate/blob/master/src/features/sampleSnippets.feature).
-
+Check out all predefined snippets.
 ## Given steps
 
 - `I open the (url|site) "([^"]*)?"` <br>Open a site in the current browser window/tab
