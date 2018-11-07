@@ -1,4 +1,4 @@
-Feature: Fieldnation test
+Feature: Fieldnation e2e Test
     As a QA in Test
     I want to test if the fieldnation.com failed login screen displays an error
 
@@ -7,4 +7,4 @@ Feature: Fieldnation test
         When  I add "marketionist" to the inputfield "#email"
         And   I add "1111" to the inputfield "#password"
         And   I click on the button "[data-nw-id='Log in']"
-        Then  I expect that element "div[data-nw-file='Alert']" is visible
+        Then  I wait on element "[data-nw-file='Alert']" to be visible
